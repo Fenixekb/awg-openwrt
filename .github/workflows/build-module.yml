@@ -13,8 +13,8 @@ jobs:
       matrix:
         build_env:
           - tag: "22.03.4"
-            pkgarch: mips_24kc
-            target: ath79
+            pkgarch: arm_cortex-a9_vfpv3-d16
+            target: mvebu/cortexa9
             subtarget: nand
             vermagic: "5c9be91b90bda5403fe3a7c4e8ddb26f"
           - tag: "23.05.0"
