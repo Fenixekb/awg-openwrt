@@ -16,7 +16,7 @@ jobs:
             pkgarch: arm_cortex-a9_vfpv3-d16
             target: mvebu/cortexa9
             subtarget: nand
-            vermagic: "5c9be91b90bda5403fe3a7c4e8ddb26f"
+            vermagic: "644b272c1f9b9ebbbd72c885f37b488c"
           - tag: "23.05.0"
             pkgarch: mipsel_24kc
             target: ramips
